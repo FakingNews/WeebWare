@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Quicksand');
+
+body {
+  background-color: #ffff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: url("https://user-images.githubusercontent.com/53411803/71544414-19c84f80-294d-11ea-96a2-edaf824b4934.jpg");
+
+}
+
+#center {
+	position: absolute;
+	z-index: 1337;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+
+#title {
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 0px;
+
+  font-weight: 900;
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  margin: 8
+}
+a {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+		font-size: 120%;
+		text-align: center;
+		vertical-align: middle;
+		text-decoration: none;
+
+}
+#links {
+
+}
